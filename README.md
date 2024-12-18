@@ -1,13 +1,31 @@
-## RappidoPanama 👋
+<!DOCTYPE html>
+<html lang=\es\<head>
+<meta charset=\UTF-8\ <meta name=\viewport\ content=\width=device-width, initial-scale=1.0\ <title>{{ page.title }}</title>
+<meta name=\description\ content=\ page.description }}\ <link rel=\stylesheet\ href=\ '/assets/css/style.css' | relative_url }}\ <link rel=\stylesheet\ href=\ '/assets/css/jekyll-theme-minimal.css' | relative_url }}\</head>
+<body>
+<header>
+<h1>{{ page.title }}</h1>
+<p>{{ page.description }}</p>
+</header>
 
-<!--
-**RappidoPanama/rappidopanama** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<main>
+<section>
+<h2>Bienvenido a Rappido Panama</h2>
+<p>Ofrecemos servicios de Internet de alta calidad para satisfacer tus necesidades de conectividad.</p>
+</section>
 
-Nombre comercial: Rappido Panama
-Razón social: Alliance Telecoms Group, s.a
+<section>
+<h2>Nuestros Servicios</h2>
+<ul>
+<li>Internet residencial</li>
+<li>Internet empresarial</li>
+<li>Soporte técnico 24/7</li>
+</ul>
+</section>
+</main>
 
-RUC: 155686859-2-2019
-
-telefono/Whatsapp
-+50 7 8280101
--->
+<footer>
+<p>&copy; {{ site.time | date: '%Y' }} Rappido Panama. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
