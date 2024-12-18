@@ -113,6 +113,7 @@
     <!-- Previous body content remains the same -->
     <section id="servicios" class="bg-blue-50 py-16">
         <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl font-bold mb-8">Rappido Panama</h1>
             <h3 class="text-3xl font-bold mb-8">Nuestros Servicios</h3>
             <div class="grid md:grid-cols-3 gap-6">
                 <div class="bg-white p-6 rounded-lg shadow-md service-card">
@@ -125,7 +126,7 @@
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md service-card">
                     <h4 class="text-xl font-semibold mb-4">Soporte Técnico</h4>
-                    <p>Asistencia especializada las 24 horas</p>
+                    <p>Asistencia especializada</p>
                 </div>
             </div>
         </div>
@@ -135,7 +136,7 @@
         <div class="bg-blue-600 text-white rounded-lg p-8 md:p-12 text-center">
             <h3 class="text-3xl font-bold mb-4">Contáctanos</h3>
             <p class="mb-6">Estamos listos para conectarte con la mejor tecnología</p>
-            <a href="https://wa.me/+50782801001" class="whatsapp-btn bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full inline-flex items-center justify-center">
+            <a href="https://wa.link/8itd5y" class="whatsapp-btn bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full inline-flex items-center justify-center">
                 <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12.001 2c5.523 0 10 4.477 10 10s-4.477 10-10 10a9.966 9.966 0 0 1-4.573-1.128l-4.428 1.12 1.128-4.422A9.965 9.965 0 0 1 2.001 12c0-5.523 4.477-10 10-10zm-3.5 4.5l-.127.007a.75.75 0 0 0-.746.75v1.5a.75.75 0 0 0 .75.75h.004c1.715.038 3.145.688 4.257 1.8 1.112 1.111 1.762 2.54 1.8 4.257v.004a.75.75 0 0 0 .75.75h1.5a.75.75 0 0 0 .75-.75l-.007-.127c-.141-2.508-1.126-4.668-2.811-6.352-1.684-1.685-3.844-2.67-6.352-2.811L8.5 6.5zm0 3l-.127.007a.75.75 0 0 0-.746.75v1.5a.75.75 0 0 0 .75.75h.004c.98.022 1.784.344 2.442 1.002.657.658.98 1.462 1.002 2.442v.004a.75.75 0 0 0 .75.75h1.5a.75.75 0 0 0 .75-.75l-.007-.127c-.123-1.234-.617-2.29-1.48-3.153-.864-.864-1.92-1.358-3.153-1.48L8.5 9.5z"/>
                 </svg>
@@ -143,6 +144,146 @@
             </a>
         </div>
     </section>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rappido Panama - Footer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #2563EB;
+            --secondary-blue: #3B82F6;
+            --accent-green: #10B981;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .footer-container {
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            color: white;
+            border-radius: 12px;
+            max-width: 800px;
+            width: 100%;
+            padding: 2rem;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .footer-container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .footer-logo {
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            color: var(--primary-blue);
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .footer-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .footer-column h4 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid rgba(255,255,255,0.2);
+            padding-bottom: 0.5rem;
+        }
+
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 0.5rem;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-column ul li:hover {
+            opacity: 1;
+        }
+
+        .footer-bottom {
+            margin-top: 2rem;
+            text-align: center;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 1rem;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .footer-container {
+            animation: fadeIn 0.6s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="footer-container">
+        <div class="footer-logo">RP</div>
+        
+        <div class="footer-section">
+            <div class="footer-column">
+                <h4>Rappido Panama</h4>
+                <ul>
+                    <li>Nombre Comercial: Rappido Panama</li>
+                    <li>Razón Social: Alliance Telecoms Group, S.A</li>
+                    <li>RUC: 155686859-2-2019</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Contacto</h4>
+                <ul>
+                    <li>Teléfono: +50 7 8280101</li>
+                    <li>WhatsApp: +50 7 8280101</li>
+                    <li>Email: info@rappidopanama.com</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Servicios</h4>
+                <ul>
+                    <li>Internet Residencial</li>
+                    <li>Internet Empresarial</li>
+                    <li>Soporte Técnico</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Rappido Panama - Todos los derechos reservados</p>
+        </div>
+    </div>
+</body>
+</html>
 
     <!-- Rest of the previous body content -->
 </body>
