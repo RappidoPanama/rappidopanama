@@ -144,48 +144,57 @@
         </div>
     </section>
 
-    <!-- Rest of the previous body content -->
-</body>
-</html>
+    <html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rappido Panama - Proveedor de Servicios de Internet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Previous CSS styles remain the same */
 
-
-        footer {
-            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
-            color: white;
-            transition: all 0.3s ease;
-        }
-
-        footer .footer-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        /* Small Footer Styles */
+        .small-footer {
+            background-color: rgba(37, 99, 235, 0.1);
+            padding: 1rem;
             text-align: center;
-            gap: 1rem;
+            font-size: 0.75rem;
+            color: #475569;
+            border-top: 1px solid rgba(37, 99, 235, 0.2);
         }
 
-        footer .company-info {
-            font-size: 0.9rem;
-            opacity: 0.9;
+        .small-footer-content {
+            max-width: 800px;
+            margin: 0 auto;
             line-height: 1.5;
-        }
-
-        footer .company-info strong {
-            color: rgba(255,255,255,0.8);
         }
     </style>
 </head>
 <body>
-    <!-- Contenido anterior permanece igual -->
+    <!-- Previous body content remains the same -->
+    <section id="contacto" class="container mx-auto my-16 px-4">
+        <div class="bg-blue-600 text-white rounded-lg p-8 md:p-12 text-center">
+            <h3 class="text-3xl font-bold mb-4">Contáctanos</h3>
+            <p class="mb-6">Estamos listos para conectarte con la mejor tecnología</p>
+            <a href="https://wa.me/+50782801001" class="whatsapp-btn bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full inline-flex items-center justify-center">
+                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12.001 2c5.523 0 10 4.477 10 10s-4.477 10-10 10a9.966 9.966 0 0 1-4.573-1.128l-4.428 1.12 1.128-4.422A9.965 9.965 0 0 1 2.001 12c0-5.523 4.477-10 10-10zm-3.5 4.5l-.127.007a.75.75 0 0 0-.746.75v1.5a.75.75 0 0 0 .75.75h.004c1.715.038 3.145.688 4.257 1.8 1.112 1.111 1.762 2.54 1.8 4.257v.004a.75.75 0 0 0 .75.75h1.5a.75.75 0 0 0 .75-.75l-.007-.127c-.141-2.508-1.126-4.668-2.811-6.352-1.684-1.685-3.844-2.67-6.352-2.811L8.5 6.5zm0 3l-.127.007a.75.75 0 0 0-.746.75v1.5a.75.75 0 0 0 .75.75h.004c.98.022 1.784.344 2.442 1.002.657.658.98 1.462 1.002 2.442v.004a.75.75 0 0 0 .75.75h1.5a.75.75 0 0 0 .75-.75l-.007-.127c-.123-1.234-.617-2.29-1.48-3.153-.864-.864-1.92-1.358-3.153-1.48L8.5 9.5z"/>
+                </svg>
+                Escríbenos por WhatsApp
+            </a>
+        </div>
+    </section>
 
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-4 footer-content">
-            <div class="company-info">
-                <strong>Nombre Comercial:</strong> Rappido Panama <br>
-                <strong>Razón Social:</strong> Alliance Telecoms Group, S.A <br>
-                <strong>RUC:</strong> 155686859-2-2019 <br>
+    <footer class="small-footer">
+        <div class="small-footer-content">
+            <p>
+                <strong>Nombre Comercial:</strong> Rappido Panama | 
+                <strong>Razón Social:</strong> Alliance Telecoms Group, S.A | 
+                <strong>RUC:</strong> 155686859-2-2019 | 
                 <strong>Teléfono:</strong> +50 7 8280101
-            </div>
-            <p>&copy; 2024 Rappido Panama - Todos los derechos reservados.</p>
+            </p>
+            <p>&copy; 2024 Rappido Panama. Todos los derechos reservados.</p>
         </div>
     </footer>
 </body>
