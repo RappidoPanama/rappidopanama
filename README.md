@@ -25,12 +25,7 @@ RUC: 155686859-2-2019
 telefono/Whatsapp
 +50 7 8280101</h2>
 <ul>
-<li>Internet residencial</li>
-<li>Internet empresarial</li>
-<li>Soporte técnico 24/7</li>
-</ul>
-</section>
-</main>
+
 
 <footer>
 <p>&copy; {{ site.time | date: '%Y' }} Rappido Panama. Todos los derechos reservados.</p>
