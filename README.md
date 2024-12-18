@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Rappido Panama
@@ -18,7 +17,13 @@ description: Proveedor de Internet
 </section>
 
 <section>
-<h2>Nuestros Servicios</h2>
+<h2>Nombre comercial: Rappido Panama
+Razón social: Alliance Telecoms Group, s.a
+
+RUC: 155686859-2-2019
+
+telefono/Whatsapp
++50 7 8280101</h2>
 <ul>
 <li>Internet residencial</li>
 <li>Internet empresarial</li>
