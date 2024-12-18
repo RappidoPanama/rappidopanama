@@ -113,6 +113,7 @@
     <!-- Previous body content remains the same -->
     <section id="servicios" class="bg-blue-50 py-16">
         <div class="container mx-auto px-4 text-center">
+<h1 class="text-3xl font-bold mb-8">Rappido Panama</h1>
             <h3 class="text-3xl font-bold mb-8">Nuestros Servicios</h3>
             <div class="grid md:grid-cols-3 gap-6">
                 <div class="bg-white p-6 rounded-lg shadow-md service-card">
