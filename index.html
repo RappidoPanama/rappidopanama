@@ -4,114 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rappido Panama - Proveedor de Servicios de Internet</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* Custom CSS Styles */
-        :root {
-            --primary-blue: #0c5191;
-            --secondary-blue: #0c5191;
-            --accent-green: #10B981;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            scroll-behavior: smooth;
-            background-color: #f9fafb;
-        }
-
-        /* Custom Navigation Styles */
-        nav {
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-            background-color: rgba(37, 99, 235, 0.9);
-        }
-
-        nav a {
-            position: relative;
-            text-decoration: none;
-        }
-
-        nav a::after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 2px;
-            bottom: -5px;
-            left: 0;
-            background-color: white;
-            transition: width 0.3s ease;
-        }
-
-        nav a:hover::after {
-            width: 100%;
-        }
-
-        /* Header Animation */
-        @keyframes gradientShift {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        header {
-            background: linear-gradient(45deg, var(--primary-blue), var(--secondary-blue), #1E3A8A);
-            background-size: 200% 200%;
-            animation: gradientShift 10s ease infinite;
-            position: relative;
-            overflow: hidden;
-        }
-
-        header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
-        }
-
-        /* Service Card Hover Effects */
-        .service-card {
-            transform: translateY(0);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-
-        .service-card:hover {
-            transform: translateY(-15px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-        }
-
-        /* Subtle Parallax Effect */
-        .parallax-bg {
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        /* WhatsApp Button Pulse */
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-
-        .whatsapp-btn {
-            animation: pulse 2s infinite;
-        }
-
-        /* Responsive Typography */
-        @media (max-width: 640px) {
-            header h2 { font-size: 2.5rem; }
-            header p { font-size: 1.25rem; }
-        }
-    </style>
 </head>
 <body>
-    <!-- Previous body content remains the same -->
-    <section id="servicios" class="bg-blue-50 py-16">
+    <nav class="navbar">
+        <div class="container">
+            <div class="flex items-center">
+                <img src="logo.png" alt="Rappido Panama Logo" class="logo">
+                <h1 class="text-2xl font-bold">Rappido Panama</h1>
+            </div>
+            <div class="space-x-4">
         <div class="container mx-auto px-4 text-center">         
             <h1 class="text-3xl font-bold mb-8">Rappido Panama</h1>
             <h4 class="text-3xl font-bold mb-8">Nuestros Servicios</h4>
