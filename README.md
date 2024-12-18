@@ -148,15 +148,7 @@
 </body>
 </html>
 
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rappido Panama - Proveedor de Servicios de Internet</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* Estilos CSS previos permanecen igual */
+
         footer {
             background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
             color: white;
