@@ -1,4 +1,3 @@
----
 layout: default
 title: Rappido Panama
 description: Proveedor de Internet
