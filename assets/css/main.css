@@ -1941,7 +1941,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(255, 255, 255, 0.2);
+			background-color: rgba(39, 62, 91, 0.5);
 		}
 
 		input[type="submit"].icon:before,
@@ -1949,7 +1949,7 @@ input, select, textarea {
 		input[type="button"].icon:before,
 		button.icon:before,
 		.button.icon:before {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(39, 62, 91, 0.5);
 		}
 
 		input[type="submit"].primary,
